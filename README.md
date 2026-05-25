@@ -53,12 +53,11 @@ The layout is optimized as an easy-to-assemble, breadboard-friendly 2-layer PCB 
 The board breaks out all 20 physical MCU pins directly into standard 2.54mm (0.1") male headers. The functional internal allocations are mapped below:
 
 ### Dedicated Infrastructure Pins
-* **Pin 1 (PD4):** Dedicated Bootloader Mode Button (Pulls to GND)
-* **Pin 4 (PD7):** Dedicated Hardware Reset Button (Pulls to GND) & Debug Header Link
+* **Pin 1 (PD4):** Dedicated Bootloader Mode Button 
+* **Pin 4 (PD7):** Dedicated Hardware Reset Button & Debug Header Link
 * **Pin 7 (VSS):** Ground Plane
 * **Pin 9 (VDD):** 3.3V Regulated System Voltage (via XC6206 LDO)
 * **Pin 10 (PC0):** WS2812B NeoPixel Data In 
-* **Pin 18 (PD1):** Single-Wire Debug Interface (SWIO Data Stream)
 
 ### Available General Purpose IO Pool (14 Pins Free)
 The remaining 14 pins are broken out completely unassigned for breadboard prototyping, supporting standard digital IO, ADC analog inputs, UART serial communications, or SPI peripherals.
