@@ -42,9 +42,9 @@ The layout is optimized as an easy-to-assemble, breadboard-friendly 2-layer PCB 
 * **Bottom Layer (Blue):** Serves as the dedicated Signal Layer. All 14 general-purpose I/O traces transition to the bottom side using standard via drops to route directly to the standard 2.54mm pin headers. 
 * **Mechanical Outline:** The board layout is shaped with smooth, curved edges (2mm mechanical fillets) to ensure smooth insertion handling.
 
-| PCB Trace Routing |
-| :---: |
-| ![Board Routing](Images/routing.png) |
+| PCB Top Layer Routing | PCB Bottom Layer Routing |
+| :---: | :---: |
+| ![Top Routing](Images/routing.png) | ![Bottom Routing](Images/fhd.png) |
 
 ---
 
