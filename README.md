@@ -36,13 +36,6 @@ The schematic design drops external components by utilizing the internal factory
 | :---: |
 | ![Schematic Diagram](Images/sch32smol.png) |
 
-### PCB Stackup & Routing Strategy
-The layout is optimized as an easy-to-assemble, breadboard-friendly 2-layer PCB designed to be routed in a single session:
-* **Top Layer (Red):** Used as a solid, unbroken GND Copper Pour plane. All surface-mount component ground pads tap directly into this copper flood, dropping return path inductance. Power paths (5V and 3.3V) are routed using wide 0.4mm traces on this layer.
-* **Bottom Layer (Blue):** Serves as the dedicated Signal Layer. All 14 general-purpose I/O traces transition to the bottom side using standard via drops to route directly to the standard 2.54mm pin headers. 
-* **Mechanical Outline:** The board layout is shaped with smooth, curved edges (2mm mechanical fillets) to ensure smooth insertion handling.
-
-| PCB Top Layer Routing | PCB Bottom Layer Routing |
 | :---: | :---: |
 | ![Top Routing](Images/routing.png) | ![Bottom Routing](Images/fhd.png) |
 
@@ -50,7 +43,7 @@ The layout is optimized as an easy-to-assemble, breadboard-friendly 2-layer PCB 
 
 ## Pinout Configuration
 
-The board breaks out all 20 physical MCU pins directly into standard 2.54mm (0.1") male headers. The functional internal allocations are mapped below:
+The board breaks out all 20 physical MCU pins directly into standard 2.54mm (0.1") male headers.
 
 ### Dedicated Infrastructure Pins
 * **Pin 1 (PD4):** Dedicated Bootloader Mode Button 
@@ -62,17 +55,7 @@ The board breaks out all 20 physical MCU pins directly into standard 2.54mm (0.1
 ### Available General Purpose IO Pool (14 Pins Free)
 The remaining 14 pins are broken out completely unassigned for breadboard prototyping, supporting standard digital IO, ADC analog inputs, UART serial communications, or SPI peripherals.
 
----
 
-## Ordering & Manufacturing
-
-To build your own smol32 board, use the pre-packaged assets inside the repository:
-1. Export the Gerber zip archive from your project files.
-2. Upload the zip archive straight to your chosen production fab house (such as JLCPCB).
-3. Select standard 2-layer, 1.6mm thickness, FR-4 materials.
-4. Provide the bundled BOM and CPL files if you wish to leverage full turnkey automated SMT assembly.
-
----
 
 ## License
 
