@@ -69,7 +69,7 @@ The remaining 14 pins are broken out completely unassigned for breadboard protot
 To build your own smol32 board, use the pre-packaged assets inside the repository:
 1. Export the Gerber zip archive from your project files.
 2. Upload the zip archive straight to your chosen production fab house (such as JLCPCB).
-3. Select standard 2-layer, 1.6mm thickness, FR-4 materials. The manufacturer's automated milling bit will automatically read the outline layer to profile the smooth curved corners.
+3. Select standard 2-layer, 1.6mm thickness, FR-4 materials.
 4. Provide the bundled BOM and CPL files if you wish to leverage full turnkey automated SMT assembly.
 
 ---
