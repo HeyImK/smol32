@@ -36,6 +36,7 @@ The schematic design drops external components by utilizing the internal factory
 | :---: |
 | ![Schematic Diagram](Images/sch32smol.png) |
 
+| PCB Routing |
 | :---: | :---: |
 | ![Top Routing](Images/routing.png) | ![Bottom Routing](Images/fhd.png) |
 
