@@ -3,6 +3,8 @@
 
 A small and powerful mini dev-board powered by a WCH CH32V006F8P6, and also integrates a WS2812B Neopixel.
 
+EasyEDA Project Post and viewing link:-https://oshwlab.com/karthiknair121232/project_qsieumkd
+
 ---
 
 ## Pictures
